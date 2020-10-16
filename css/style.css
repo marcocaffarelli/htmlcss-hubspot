@@ -8,6 +8,18 @@
 .float_left{
   float: left;
 }
+
+.bgc_orange{
+  padding: 5px;
+  background-color: orange;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.pad{
+  padding-left: 10px;
+}
 /* /utility */
 
 .general_container{
@@ -25,12 +37,51 @@
   margin:auto;
 }
 
+/* nav superiore */
 .navbar_1{
   position: relative;
   top: 0;
-  background-color: purple;
+  background-color:#e5f2ff;
   height: 40px;
   width: 1200px;
+  line-height: 40px;
+}
+
+.navbar_1 > span > a{
+  text-decoration: none;
+}
+
+.nav1_left{
+  margin-left: 100px;
+}
+
+.nav1_left > span{
+  padding-right: 10px;
+}
+
+.nav1_right{
+  position: absolute;
+  right: 100px;
+}
+
+.nav1_right > i, a{
+  margin: 0 5px;
+}
+
+#vertical_rules{
+  border-left: 1px solid black;
+}
+
+.bor_rd{
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  color: orange;
+}
+
+.header_container > hr{
+  background-color: black;
+  border:1px solid black;
 }
 
 .navbar_2{
