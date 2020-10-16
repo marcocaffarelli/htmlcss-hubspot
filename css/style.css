@@ -11,10 +11,15 @@
 
 .bgc_orange{
   padding: 5px;
-  background-color: orange;
+  background-color: #ff7a59;
   color: white;
   border: 1px solid;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.big_or{
+  text-decoration: none;
+  padding: 15px 30px;
 }
 
 .pad{
@@ -32,8 +37,8 @@
 .header_container{
   position: relative;
   width: 1200px;
-  height: 400px;
-  background-color: green;
+  height: 650px;
+  color: #33475b;
   margin:auto;
 }
 
@@ -41,7 +46,7 @@
 .navbar_1{
   position: relative;
   top: 0;
-  background-color:#e5f2ff;
+  background-color: #e5f2ff;
   height: 40px;
   width: 1200px;
   line-height: 40px;
@@ -102,6 +107,32 @@
   margin-right: 10px;
 }
 
+.bkg_image{
+  height:600px;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-position:  right;
+}
+
+.text_header{
+  margin-left: 100px;
+  width: 400px;
+  padding-top: 50px;
+}
+
+.pad_t_b{
+  padding:  10px 0;
+}
+.text_header > h1{
+  font-size: 2.5em;
+}
+
+.text_header > div{
+  margin-top: 20px;
+  font-size: 0.6em;
+}
+
+
 .green_row{
   position: absolute;
   bottom: 0px;
@@ -110,18 +141,17 @@
   width: 1200px;
 }
 
-
 /* main */
-.com{
+.com_main_container{
   position: relative;
   width: 1200px;
   height: 1440px;
   background-color: red;
-  margin:auto;
 }
 
 .main_container{
   width: 1000px;
+  margin:auto;
 }
 
 .top_section{
