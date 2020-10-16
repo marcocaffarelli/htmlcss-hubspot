@@ -51,20 +51,20 @@
   text-decoration: none;
 }
 
-.nav1_left{
+.nav_left{
   margin-left: 100px;
 }
 
-.nav1_left > span{
+.nav_left > span{
   padding-right: 10px;
 }
 
-.nav1_right{
+.nav_right{
   position: absolute;
   right: 100px;
 }
 
-.nav1_right > i, a{
+.nav_right > i, a{
   margin: 0 5px;
 }
 
@@ -84,12 +84,22 @@
   border:1px solid black;
 }
 
+/* nav inferiore */
 .navbar_2{
   position: relative;
   top: 0px;
-  background-color: violet;
+  background-color: white;
   height: 40px;
   width: 1200px;
+  line-height: 40px;
+}
+
+.nav_left > img{
+  padding-top: 5px;
+}
+
+.navbar_2 > .nav_right > span{
+  margin-right: 10px;
 }
 
 .green_row{
