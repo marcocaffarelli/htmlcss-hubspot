@@ -50,6 +50,7 @@
   height: 40px;
   width: 1200px;
   line-height: 40px;
+  border-bottom: 1px solid #33475b;
 }
 
 .navbar_1 > span > a{
@@ -84,11 +85,6 @@
   color: orange;
 }
 
-.header_container > hr{
-  background-color: black;
-  border:1px solid black;
-}
-
 /* nav inferiore */
 .navbar_2{
   position: relative;
@@ -108,7 +104,7 @@
 }
 
 .bkg_image{
-  height:600px;
+  height:602px;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-position:  right;
@@ -136,9 +132,11 @@
 .green_row{
   position: absolute;
   bottom: 0px;
-  background-color: blue;
+  background-color: #6ee6cd;
   height: 40px;
   width: 1200px;
+  border-top: 3px solid #4b504d;
+  border-bottom: 3px solid #4b504d;
 }
 
 /* main */
