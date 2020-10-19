@@ -282,8 +282,6 @@ hr{
   bottom: 50px;
 }
 
-
-
 .main_container:after{
   content: "";
   display: table;
@@ -331,4 +329,46 @@ height: 50px;
 
 .right_lin{
   border-right: 1px solid white;
+}
+
+.bottom{
+  position: relative;
+  top: 0;
+  width: 1200px;
+  background-color: white;
+}
+
+.bottom_section{
+  position: relative;
+  top: 0px;
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+}
+
+.bottom:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.bot_main_rules{
+  height: 100px;
+}
+
+.bot_rules_left{
+  width: 30%;
+}
+
+.bot_rules_right{
+  width: 70%;
+}
+
+.img_bot_main{
+  height: 45px;
+  padding-right: 30px;
+}
+
+#big_number{
+  font-size: 50px;
+  font-weight: bold;
 }
