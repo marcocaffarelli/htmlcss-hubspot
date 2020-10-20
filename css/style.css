@@ -8,16 +8,21 @@
 .float_left{
   float: left;
 }
+
 .float_right{
   float: right;
 }
 
 .bgc_orange{
-  padding: 5px;
+  padding: 4px;
   background-color: #ff7a59;
   color: white;
   border: 1px solid;
   border-radius: 5px;
+}
+
+.bgc_orange:hover{
+  background-color:  rgba(255, 122, 89, 0.5);
 }
 
 .big_or{
@@ -37,7 +42,7 @@
 /* header */
 .header_container{
   position: relative;
-  min-width: 1400px;
+  min-width: 1600px;
   height: 650px;
   color: #33475b;
   background-color: #FFF3Ef;
@@ -76,6 +81,10 @@
   padding-right: 10px;
 }
 
+#vertical_rules{
+  border-left: 1px solid black;
+}
+
 .nav_right{
   position: absolute;
   right: 15%;
@@ -89,15 +98,15 @@
   color: #13AAC2;
 }
 
-#vertical_rules{
-  border-left: 1px solid black;
+.bor_rd{
+  padding: 4px;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  color: #ff7a59;
 }
 
-.bor_rd{
-  padding: 5px;
-  border: 1px solid orange;
-  border-radius: 10px;
-  color: orange;
+.bor_rd:hover{
+  background-color: rgba(255, 122, 89, 0.2);
 }
 
 /* nav inferiore */
@@ -194,6 +203,10 @@
   border-radius: 10px;
 }
 
+.top_box:hover{
+  box-shadow: 0 0 10px lightgrey;
+}
+
 .top_box_container{
   position: absolute;
   top: 50%;
@@ -251,7 +264,6 @@ hr{
   height: 400px;
   width: 100%;
   background-color: #f5f8fa;
-
 }
 
 .column{
@@ -261,6 +273,10 @@ hr{
   margin: 50px 0;
   padding: 10px 20px;
   text-align: center;
+}
+
+.column:hover{
+  box-shadow: 0 0 10px lightgrey;
 }
 
 .column img{
@@ -356,7 +372,7 @@ hr{
 
 .bottom_section{
   position: relative;
-  top: 0px;
+  top: 0;
   width: 70%;
   background-color: white;
   margin: auto;
@@ -384,7 +400,12 @@ hr{
 
 .img_bot_main{
   height: 27px;
-  padding-right: 20px;
+  padding-right: 10px;
+  margin-left: 40px;
+}
+
+.lit{
+  height: 17px;
 }
 
 #big_number{
@@ -399,7 +420,7 @@ hr{
 
 .img_wom{
   width: 300px;
-  margin-left: 440px;
+  margin-left: 380px;
   padding-bottom: 30px;
 }
 
@@ -436,6 +457,15 @@ hr{
   color: #DADEE0;
 }
 
+.footer_content a{
+  color: #DADEE0;
+  text-decoration: none;
+}
+
+.footer_content a:hover{
+  color: #13AAC2;
+  text-decoration: underline;
+}
 .square{
   width: 25%;
   padding-top: 30px;
@@ -462,14 +492,23 @@ hr{
   text-align: center;
 }
 
+.contact:hover{
+  background-color: #13AAC2;
+}
+
 .icon_footer{
   width: 80%;
   text-align: center;
 }
 
+.icon_footer > i:hover{
+  color: #13AAC2;
+}
+
 .languages{
   text-align: center;
   padding-top: 310px;
+  margin-bottom: 20px;
 }
 
 .footer_container{
@@ -480,6 +519,10 @@ hr{
 
 .lg_foot{
   width: 70%;
+}
+
+.lg_foot > img{
+  margin-top: 20px;
 }
 
 .privacy{
