@@ -297,7 +297,7 @@ hr{
 
 
 #central_column{
-  margin: 50px 50px;
+  margin: 5% 5%;
 }
 
 .se_ic_col{
@@ -455,6 +455,10 @@ hr{
   background-color: #33475b;
   margin: auto;
   color: #DADEE0;
+}
+
+.footer_content > hr{
+  background-color: #DADEE0; 
 }
 
 .footer_content a{
