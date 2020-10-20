@@ -34,15 +34,13 @@
 }
 /* /utility */
 
-
-
 /* header */
 .header_container{
   position: relative;
-  min-width: 1200px;
+  min-width: 1400px;
   height: 650px;
   color: #33475b;
-  background-color: white;
+  background-color: #FFF3Ef;
   margin:auto;
 }
 
@@ -53,6 +51,7 @@
   background-color: #e5f2ff;
   height: 40px;
   width: 100vw;
+  min-width: 1400px;
   line-height: 40px;
   border-bottom: 1px solid #33475b;
 }
@@ -96,6 +95,7 @@
   background-color: white;
   height: 40px;
   width: 100vw;
+  min-width: 1400px;
   line-height: 40px;
 }
 
@@ -108,11 +108,11 @@
 }
 
 .bkg_image{
-  height:592px;
+  height:602px;
   background-image: url(../img/jumbotron.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position:  right;
+  background-position: right;
 }
 
 /* testo header */
@@ -124,10 +124,11 @@
 
 .text_header > h1{
   font-size: 2.5em;
+  margin-bottom: 30px;
 }
 
 .text_header > div{
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 0.6em;
 }
 
@@ -135,7 +136,7 @@
 .green_row{
   position: absolute;
   bottom: 0px;
-  background-color: #6ee6cd;
+  background-color: #AFEBE4;
   height: 40px;
   width: 100vw;;
   border-top: 3px solid #4b504d;
@@ -146,12 +147,12 @@
 .com_main_container{
   position: relative;
   width: 100vw;
-  min-width: 1400px;
   background-color: #f5f8fa;
 }
 
 .main_container{
   width: 70%;
+  min-width: 1019.2px;
   margin:auto;
   color: #33475b;
 }
@@ -273,12 +274,12 @@ hr{
 
 .se_ic_col{
   position: relative;
-  bottom: 25px;
+  bottom: 20px;
 }
 
 .th_ic_col{
   position: relative;
-  bottom: 50px;
+  bottom: 40px;
 }
 
 .main_container:after{
@@ -292,6 +293,7 @@ hr{
   position: relative;
   top: 0;
   width: 100vw;
+  min-width: 1400px;
   background-image: linear-gradient(to right,#00a4bd,#00bda5);
   padding: 80px 0;
 }
@@ -307,18 +309,17 @@ hr{
 }
 
 .table{
-  width: 25%
+  width: 25%;
 }
 
 #logo_marketplace{
-height: 50px;
+  height: 50px;
 }
 
-.middle_section h3, p, img, div{
+.middle_section h3,.middle_section p, .middle_section img, .middle_section div{
   padding: 10px 0;
 }
 
-/* parte inferiore main */
 .numbers{
   font-size: 40px;
   font-weight: bolder;
@@ -332,10 +333,12 @@ height: 50px;
   border-right: 1px solid white;
 }
 
+/* parte inferiore main */
 .bottom{
   position: relative;
   top: 0;
   width: 100vw;
+  min-width: 1400px;
   background-color: white;
 }
 
@@ -355,6 +358,7 @@ height: 50px;
 
 .bot_main_rules{
   height: 100px;
+  padding-top: 30px;
 }
 
 .bot_rules_left{
@@ -367,8 +371,8 @@ height: 50px;
 }
 
 .img_bot_main{
-  height: 45px;
-  padding-right: 30px;
+  height: 27px;
+  padding-right: 20px;
 }
 
 #big_number{
@@ -382,8 +386,9 @@ height: 50px;
 }
 
 .img_wom{
-  width: 350px;
-  margin-left: 300px;
+  width: 300px;
+  margin-left: 440px;
+  padding-bottom: 30px;
 }
 
 .bot_bottom:after{
@@ -393,7 +398,7 @@ height: 50px;
 }
 
 .left_bot_bottom > div{
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 0.6em;
 }
 
@@ -416,11 +421,16 @@ height: 50px;
   width: 70%;
   background-color: #33475b;
   margin: auto;
-  color: lightgrey;
+  color: #DADEE0;
 }
 
 .square{
   width: 25%;
+  padding-top: 30px;
+}
+
+.square > div{
+  padding: 5px;
 }
 
 .strong{
@@ -430,12 +440,13 @@ height: 50px;
 }
 
 .contact{
-  background-color: lightgrey;
+  background-color: #DADEE0;
   color: #33475b;
   border: 1px solid;
   border-radius: 5px;
   width: 80%;
   padding: 10px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -446,6 +457,7 @@ height: 50px;
 
 .languages{
   text-align: center;
+  padding-top: 310px;
 }
 
 .footer_container{
@@ -464,7 +476,5 @@ height: 50px;
 }
 
 .copyright{
-  position: relative;
-  bottom: 35px;
   color: white;
 }
